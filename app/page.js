@@ -1,9 +1,11 @@
-
+"use client";
+import React, { useState } from "react";
+import AddTodo from "./components/AddTodo";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-    </main>
-  )
+    <>
+      <AddTodo />
+    </>
+  );
 }
