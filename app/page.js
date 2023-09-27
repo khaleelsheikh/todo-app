@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import AddTodo from "./components/AddTodo";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
-      <AddTodo />
+      <Header />
     </>
   );
 }
