@@ -9,6 +9,7 @@ export default function AddTodo({ addTodo }) {
     addTodo(text);
     setText("");
   };
+
   return (
     <form>
       <label>Enter your To Do</label>
