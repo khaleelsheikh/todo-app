@@ -15,30 +15,42 @@ export default function Header() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              className="w-10 h-10 text-white p-2 bg-blue-700 rounded-full"
               viewBox="0 0 24 24"
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">My To-Do's</span>
+            <span className="ml-3 text-xl">My To Do App</span>
           </Link>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <Link href="/" className="mr-5 hover:text-sky-500">
-              Home
+          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <Link href="#" className="mr-5 hover:text-gray-900">
+              First Link
             </Link>
-            <Link href="/add" className="mr-5 hover:text-sky-500">
-              Add To-Do
+            <Link href="#" className="mr-5 hover:text-gray-900">
+              Second Link
             </Link>
-            <Link href="#" className="mr-5 hover:text-sky-500">
-              My To-Do's
+            <Link href="#" className="mr-5 hover:text-gray-900">
+              Third Link
             </Link>
-            <Link href="#" className="mr-5 hover:text-sky-500">
-              My Profile
+            <Link href="#" className="mr-5 hover:text-gray-900">
+              Fourth Link
             </Link>
           </nav>
+          <Link
+            href="/login"
+            className="inline-flex items-center mr-3 text-white bg-blue-700 hover:bg-blue-800 font-medium px-3 py-1 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded text-base mt-4 md:mt-0"
+          >
+            Sign In
+          </Link>
+          <Link
+            href="/signup"
+            className="inline-flex items-center mr-3 text-white bg-blue-700 hover:bg-blue-800 font-medium px-3 py-1 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded text-base mt-4 md:mt-0"
+          >
+            Sign Up
+          </Link>
         </div>
       </header>
     </>
